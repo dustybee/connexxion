@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: whitesmoke;
+    color: #4b4b4b;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.time {
+    background-color: #9fb7e7;
+    float: right;
+    font-size: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.information {
+    font-size: 3em;
+}
+
+.info-titel {
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+.volgende-haltes {
+    background-color: #9fb7e7;
+    height: 600px;
+}
+
+.halte {
+    height: 65px;
+    background-color: whitesmoke;
+}
+
+.halte-header {
+    background-color: #a3cb58;
+    height: 70px;
+}
+
+
+.halte-naam {
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.halte-tijd {
+    float: right;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+.connex {
+    background-color: #c1cb58;
+    width: 100%;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.eindbestemming-titel {
+    background-color: rgb(146, 145, 145);
+    padding: 10px;
+    color: white;
+}
+
+.eindbestemming {
+    background-color: whitesmoke;
+    padding-left: 5px;
+    height: 60px;
+}
+
+.eindbestemming-naam {
+    float: left;
+}
+.eindbestemming-tijd {
+    float: right;
+    margin-right: 5px;
+}
+
+.footer {
+    font-size: 3em;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
